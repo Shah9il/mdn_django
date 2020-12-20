@@ -95,4 +95,4 @@ ENV/
 
 #My additions
 attendance/
-book_covers/
+catalog/static/book_covers/
