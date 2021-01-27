@@ -27,8 +27,8 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '7vr103odn-w!yb#rpot0)nl8*fzwes
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
-# ALLOWED_HOSTS = ['.localhost', '127.0.0.1', '[::1]']
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['immense-beach-67569.herokuapp.com','.localhost', '127.0.0.1', '[::1]']
 
 
 # Application definition
@@ -152,4 +152,4 @@ DATABASES['default'].update(db_from_env)
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-#Test add lines for push
+Test add lines for push
