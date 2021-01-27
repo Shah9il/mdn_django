@@ -96,3 +96,5 @@ ENV/
 #My additions
 attendance/
 catalog/static/book_covers/
+
+tests/
